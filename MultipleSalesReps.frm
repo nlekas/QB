@@ -13,6 +13,7 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+
 Private Sub ComboBox1_Change()
     If gEnableErrorHandling Then On Error GoTo whoops
     Const PROC_NAME = "ComboBox1_Change"
@@ -148,6 +149,9 @@ whoops:
     & Err.Number & " - " & Err.Description & " in " & PROC_NAME, vbCritical, "Whoops!"
 End Sub
 
+
+
+' TEST EDIT
 
 
 Private Sub CommandButton3_Click()
